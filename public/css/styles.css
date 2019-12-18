@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "LatoRegular";
+  src: url("../fonts/lato/lato.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/lato/lato-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LatoBlack";
+  src: url("../fonts/lato/lato-black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LatoLight";
+  src: url("../fonts/lato/lato-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  src: url("../fonts/futura/futura-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaBold";
+  src: url("../fonts/futura/futura-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaBook";
+  src: url("../fonts/futura/futura-book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaBlack";
+  src: url("../fonts/futura/futura-black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaLight";
+  src: url("../fonts/futura/futura-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/dan-gold-S0J_gLmaHwM-unsplash-min.jpg") center center;
+}

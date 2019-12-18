@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Questrial|Ubuntu:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="font-lato">
+    <header class="p-4 bg-deep-orange-900">
+      <nav
+        class="container mx-auto flex items-center justify-between flex-wrap"
+      >
+        <div class="flex items-center flex-shrink-0 text-white mr-10">
+          <span class="font-futura-bold text-2xl tracking-tight"
+            >Roadtrip Car Rental</span
+          >
+        </div>
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-xl lg:flex-grow">
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+            >
+              Home
+            </a>
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+            >
+              Fleet
+            </a>
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+            >
+              About
+            </a>
+            <a
+              href="#responsive-header"
+              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white"
+            >
+              Contact
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="inline-block px-6 py-3 font-lato-bold capitalize bg-white text-deep-orange-900 hover:shadow-lg mt-4 lg:mt-0"
+              >Book Now</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="pt-20 pb-32 px-6 bg-img bg-no-repeat bg-cover bg-center">
+        <div class="container mx-auto flex flex-row">
+          <div class="w-1/2 text-white">
+            <h1 class="mb-6 font-futura-bold text-5xl">
+              Travel With Excellence
+            </h1>
+            <p class="leading-relaxed text-2xl w-10/12">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+              adipisci quam dolorem cumque! A iure aliquid nihil? Dicta
+              temporibus excepturi labore suscipit et earum dolorum porro
+              architecto, quaerat doloremque at.
+            </p>
+          </div>
+          <div class="w-1/2 p-6">
+            <form class="p-6 shadow-lg bg-white">
+              <h2 class="mb-6 text-2xl font-futura-medium">
+                Rent cars at the best rates
+              </h2>
+              <div class="mb-4">
+                <label for="pickup">Pick up location</label>
+                <input
+                  type="text"
+                  name="pickup"
+                  id="pickup"
+                  class="p-3 mt-2 w-full bg-blue-gray-50 focus:outline-none"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="dropoff">Drop off location</label>
+                <input
+                  type="text"
+                  name="dropoff"
+                  id="dropoff"
+                  class="p-3 mt-2 w-full bg-blue-gray-50 focus:outline-none"
+                />
+              </div>
+              <div class="flex mb-6">
+                <div class="pr-4 w-1/2 flex flex-col">
+                  <label for="pickup-date">Pick up date/time</label>
+                  <input type="date" class="mt-2 p-3 bg-blue-gray-50" />
+                  <input type="time" class="mt-2 p-3 bg-blue-gray-50" />
+                </div>
+                <div class="w-1/2 flex flex-col">
+                  <label for="dropoff-date">Drop of date/time</label>
+                  <input type="date" class="mt-2 p-3 bg-blue-gray-50" />
+                  <input type="time" class="mt-2 p-3 bg-blue-gray-50" />
+                </div>
+              </div>
+              <div class="mt-4">
+                <button
+                  type="submit"
+                  class="p-4 w-full bg-deep-orange-900 font-lato-bold text-white"
+                >
+                  Book Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 px-6">
+        <div class="container mx-auto">
+          <h1 class="mb-6 font-futura-bold text-5xl">Fleet</h1>
+          <div class="flex flex-wrap -m-3 container mx-auto">
+            <div class="pb-4 sm:p-4 w-full sm:w-1/2 md:w-1/3 flex flex-col">
+              <a
+                href="#"
+                class="hover:bg-white hover:text-blue-gray-900 hover:shadow-2xl p-8 pb-12 overflow-hidden flex-1 flex flex-col"
+              >
+                <div class="mb-4 text-right">
+                  <p
+                    class="px-4 py-2 text-white font-lato-bold bg-deep-orange-900 inline rounded-full"
+                  >
+                    Group A
+                  </p>
+                </div>
+                <img src="./img/sedan.jpg" alt="Group A" class="w-full mb-4" />
+                <div>
+                  <h1 class="text-2xl font-futura-medium mb-3 capitalize">
+                    Sedans
+                  </h1>
+                  <p class="text-primary-600 text-lg font-g-medium">
+                    Small sedans and cars lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div class="mt-10">
+                  <button
+                    class="inline-block px-6 py-3 font-lato-bold capitalize bg-white text-deep-orange-900 shadow-lg mt-4 lg:mt-0"
+                  >
+                    View Fleet
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="pb-4 sm:p-4 w-full sm:w-1/2 md:w-1/3 flex flex-col">
+              <a
+                href="#"
+                class="hover:bg-white hover:text-blue-gray-900 hover:shadow-2xl p-8 pb-12 overflow-hidden flex-1 flex flex-col"
+              >
+                <div class="mb-4 text-right">
+                  <p
+                    class="px-4 py-2 text-white font-lato-bold bg-deep-orange-900 inline rounded-full"
+                  >
+                    Group B
+                  </p>
+                </div>
+                <img src="./img/suv-2.jpg" alt="Group B" class="w-full mb-4" />
+                <div>
+                  <h1 class="text-2xl font-futura-medium mb-3 capitalize">
+                    SUVs
+                  </h1>
+                  <p class="text-primary-600 text-lg font-g-medium">
+                    Small sedans and cars lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div class="mt-10">
+                  <button
+                    class="inline-block px-6 py-3 font-lato-bold capitalize bg-white text-deep-orange-900 shadow-lg mt-4 lg:mt-0"
+                  >
+                    View Fleet
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="pb-4 sm:p-4 w-full sm:w-1/2 md:w-1/3 flex flex-col">
+              <a
+                href="#"
+                class="hover:bg-white hover:text-blue-gray-900 hover:shadow-2xl p-8 pb-12 overflow-hidden flex-1 flex flex-col"
+              >
+                <div class="mb-4 text-right">
+                  <p
+                    class="px-4 py-2 text-white font-lato-bold bg-deep-orange-900 inline rounded-full"
+                  >
+                    Group C
+                  </p>
+                </div>
+                <img
+                  src="./img/truck-2.jpg"
+                  alt="Group A"
+                  class="w-full mb-4"
+                />
+                <div>
+                  <h1 class="text-2xl font-futura-medium mb-3 capitalize">
+                    Trucks
+                  </h1>
+                  <p class="text-primary-600 text-lg font-g-medium">
+                    Small sedans and cars lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div class="mt-10">
+                  <button
+                    class="inline-block px-6 py-3 font-lato-bold capitalize bg-white text-deep-orange-900 shadow-lg mt-4 lg:mt-0"
+                  >
+                    View Fleet
+                  </button>
+                </div>
+              </a>
+            </div>
+            <div class="pb-4 sm:p-4 w-full sm:w-1/2 md:w-1/3 flex flex-col">
+              <a
+                href="#"
+                class="hover:bg-white hover:text-blue-gray-900 hover:shadow-2xl p-8 pb-12 overflow-hidden flex-1 flex flex-col"
+              >
+                <div class="mb-4 text-right">
+                  <p
+                    class="px-4 py-2 text-white font-lato-bold bg-deep-orange-900 inline rounded-full"
+                  >
+                    Group D
+                  </p>
+                </div>
+                <img
+                  src="./img/executive.jpg"
+                  alt="Group A"
+                  class="w-full mb-4"
+                />
+                <div>
+                  <h1 class="text-2xl font-futura-medium mb-3 capitalize">
+                    Executive
+                  </h1>
+                  <p class="text-primary-600 text-lg font-g-medium">
+                    Small sedans and cars lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+                <div class="mt-10">
+                  <button
+                    class="inline-block px-6 py-3 font-lato-bold capitalize bg-white text-deep-orange-900 shadow-lg mt-4 lg:mt-0"
+                  >
+                    View Fleet
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 px-6 bg-deep-orange-900 text-white">
+        <div class="container mx-auto">
+          <h1 class="mb-6 font-futura-bold text-5xl">Why Roadtrip?</h1>
+          <div>
+            <div class="my-16 flex">
+              <div class="w-1/2">
+                <img
+                  src="./img/blake-wisz-Xn5FbEM9564-unsplash-min.jpg"
+                  alt="About"
+                />
+              </div>
+              <div class="w-1/2 p-8">
+                <p class="leading-relaxed text-2xl">
+                  Drive to your destination with a car of your choice. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Ex ullam
+                  aliquam impedit rem sunt a iste explicabo culpa exercitationem
+                  rerum repellat accusamus hic ipsam, praesentium porro quae
+                  modi. Tenetur, id!
+                </p>
+              </div>
+            </div>
+            <div class="my-16 flex">
+              <div class="w-1/2 p-8">
+                <p class="leading-relaxed text-2xl">
+                  Affordable chauffer services with our rentals. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Ex ullam aliquam
+                  impedit rem sunt a iste explicabo culpa exercitationem rerum
+                  repellat accusamus hic ipsam, praesentium porro quae modi.
+                  Tenetur, id!
+                </p>
+              </div>
+              <div class="w-1/2">
+                <img
+                  src="./img/anastasia-dulgier-Cj14LmVFsdI-unsplash-min.jpg"
+                  alt="About"
+                />
+              </div>
+            </div>
+            <div class="mt-16 flex">
+              <div class="w-1/2">
+                <img
+                  src="./img/dan-gold-S0J_gLmaHwM-unsplash-min.jpg"
+                  alt="About"
+                />
+              </div>
+              <div class="w-1/2 p-8">
+                <p class="leading-relaxed text-2xl">
+                  Drive to your destination with a car of your choice. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Ex ullam
+                  aliquam impedit rem sunt a iste explicabo culpa exercitationem
+                  rerum repellat accusamus hic ipsam, praesentium porro quae
+                  modi. Tenetur, id!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 px-6">
+        <div class="container mx-auto">
+          <div class="flex flex-row">
+            <div class="w-1/2">
+              <h1 class="mb-6 font-futura-bold text-5xl">Contact us today!</h1>
+              <p class="leading-relaxed text-2xl w-11/12">
+                Contact Road Trip Car Rental strives to provide exceptional
+                services before, during and after a rental We want to hear from
+                you should you have any concerns or better yet a compliment. We
+                wanted to be your preferred car rental comp
+              </p>
+            </div>
+            <div class="w-1/2 p-6">
+              <form class="p-6 shadow-lg">
+                <h2 class="mb-6 text-2xl font-futura-medium">
+                  Send us a message
+                </h2>
+                <div class="mb-4">
+                  <label for="firstname">First name</label>
+                  <input
+                    type="text"
+                    name="firstname"
+                    id="firstname"
+                    class="p-3 mt-2 w-full bg-blue-gray-50 focus:outline-none"
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="lastname">Last name</label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    class="p-3 mt-2 w-full bg-blue-gray-50 focus:outline-none"
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="p-3 mt-2 w-full bg-blue-gray-50 focus:outline-none"
+                  />
+                </div>
+                <div class="mb-4 flex flex-col">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="5"
+                    class="p-3 mt-2 w-full bg-blue-gray-50 focus:outline-none"
+                  ></textarea>
+                </div>
+
+                <div class="mt-4">
+                  <button
+                    type="submit"
+                    class="p-4 w-full bg-deep-orange-900 font-lato-bold text-white"
+                  >
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="py-16 px-6 bg-gray-50">
+        <div class="container mx-auto flex justify-center content-center my-4">
+          <div class="mr-4">
+            <p>Roadtrip Car Rental &copy; 2019. All rights reserved.</p>
+          </div>
+          <div>
+            <img
+              src="./img/_ionicons_svg_logo-facebook.svg"
+              alt="Facebook"
+              class="w-6 h-6 mx-2"
+            />
+          </div>
+          <div>
+            <img
+              src="./img/_ionicons_svg_logo-twitter.svg"
+              alt="Twitter"
+              class="w-6 h-6 mx-2"
+            />
+          </div>
+          <div>
+            <img
+              src="./img/_ionicons_svg_logo-whatsapp.svg"
+              alt="WhatsApp"
+              class="w-6 h-6 mx-2"
+            />
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="text-blue-gray-400">
+            Site credits: <a href="#" class="hover:underline font-lato-bold">skerptech</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
